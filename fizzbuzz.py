@@ -7,5 +7,7 @@ for number in range(minRange, maxRange, step):
         print("fizzbuzz", end =" ")
     else if number % 3 == 0:
         print("fizz", end = " ")
+    else if number % 5 == 0:
+        print("buzz", end=' ')
     else 
         print(number, end = " ")
