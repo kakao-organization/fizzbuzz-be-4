@@ -1,7 +1,13 @@
-for i in range(1,15+1):
-    #5의 배수일 때 출력
-    if i % 5 == 0:
-        print("Buzz", end=' ')
-
-    else:
-        print(i, end= ' ')
+minRange : int = 1
+maxRange : int = 30
+step : int = 1
+        
+for number in range(minRange, maxRange, step):
+    if number % 15 == 0:
+        print("fizzbuzz", end =" ")
+    else if number % 3 == 0:
+        print("fizz", end = " ")
+    else if number % 5 == 0:
+        print("buzz", end=' ')
+    else 
+        print(number, end = " ")
